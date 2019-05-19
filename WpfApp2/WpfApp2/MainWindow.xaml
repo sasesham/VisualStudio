@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="WpfApp2.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize">
+    <Grid Background="#FFAEBEE8">
+        <Calendar x:Name="Calendar" HorizontalAlignment="Left" Margin="579,52,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButtonSchedule" Content="RadioButton" HorizontalAlignment="Left" Margin="125,73,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButtonDismiss" Content="RadioButton" HorizontalAlignment="Left" Margin="125,121,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButtonInstall" Content="RadioButton" HorizontalAlignment="Left" Margin="125,180,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="255,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="120" Width="264" FontFamily="Arial" FontSize="16" FontWeight="Bold"><Run Text="This is a testbox with test"/><LineBreak/><Run Text="Please replace when another button is clicked"/><LineBreak/><Run/><LineBreak/><Run Text="Please Note"/></TextBlock>
+        <Button x:Name="button" Content="OK" HorizontalAlignment="Left" Margin="255,314,0,0" VerticalAlignment="Top" Width="252"/>
+
+        <xctk:TimePicker x:Name="TimePicker" HorizontalAlignment="Left" Margin="579,225,0,0" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="255,267,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="330"/>
+
+    </Grid>
+</Window>
